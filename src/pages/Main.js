@@ -36,7 +36,7 @@ const MainPage = () => {
       ContactNo: user.mobile,
       EmailId: user.email,
       // Now redirects to a frontend page with a GET method
-      CallbackURL: "https://nonseampay.vercel.app/transaction",
+      CallbackURL: "https://nonseam-pay.onrender.com/transaction",
       IntegrationType: "seamless", // Using redirect type for this flow
       adf1: "NA",
       adf2: "NA",
